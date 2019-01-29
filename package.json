@@ -1,0 +1,10 @@
+{
+  "name": "devconnector",
+  "version": "1.0.0",
+  "description": "A social netwrokd for developers",
+  "main": "server.js",
+  "repository": "https://github.com/HBenzaoui/devconnector-backend.git",
+  "author": "Hamza Benzaoui",
+  "license": "MIT",
+  "private": null
+}
