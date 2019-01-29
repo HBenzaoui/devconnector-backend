@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A social netwrokd for developers",
   "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
   "repository": "https://github.com/HBenzaoui/devconnector-backend.git",
   "author": "Hamza Benzaoui",
   "license": "MIT",
