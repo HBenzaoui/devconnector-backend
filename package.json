@@ -4,8 +4,11 @@
   "description": "A social netwrokd for developers",
   "main": "server.js",
   "scripts": {
+    "client-install": "npm install --prefix ../devconnector-frontend",
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "client": "npm start --prefix ../devconnector-frontend",
+    "dev": "concurrently -r \"npm run server\" \"npm run client\""
   },
   "repository": "https://github.com/HBenzaoui/devconnector-backend.git",
   "author": "Hamza Benzaoui",
